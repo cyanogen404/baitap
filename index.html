@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khám phá Việt Nam</title>
+</head>
+<body>
+
+    <!-- Tiêu đề chính của website -->
+    <h1>Khám phá Việt Nam</h1>
+
+    <!-- 3.1. Menu bằng Link -->
+    <p>
+        <a href="index.html">Trang chủ</a> | 
+        <a href="hanoi.html">Hà Nội</a> | 
+        <a href="danang.html">Đà Nẵng</a> | 
+        <a href="https://www.google.com" target="_blank">Google</a>
+    </p>
+
+    <!-- 4.1. Phần nâng cao: Link đến vị trí trong cùng trang -->
+    <p>
+        <strong>Khu vực nhanh:</strong>
+        <a href="#mien-bac">Miền Bắc</a> | 
+        <a href="#mien-trung">Miền Trung</a> | 
+        <a href="#mien-nam">Miền Nam</a>
+    </p>
+
+    <hr>
+
+    <!-- 3.2 & 4.2. Danh sách địa điểm bằng <ul> và danh sách có link -->
+    <h2>Các địa điểm du lịch nổi tiếng</h2>
+    <ul>
+        <li><a href="hanoi.html">Hà Nội</a></li>
+        <li><a href="danang.html">Đà Nẵng</a></li>
+        <li>Hạ Long</li>
+        <li>Hội An</li>
+        <li>Đà Lạt</li>
+    </ul>
+
+    <!-- 3.3. Danh sách có thứ tự bằng <ol> -->
+    <h2>Top 5 địa điểm bạn muốn đến</h2>
+    <ol>
+        <li>Hà Nội</li>
+        <li>Đà Nẵng</li>
+        <li>Hội An</li>
+        <li>Hạ Long</li>
+        <li>Đà Lạt</li>
+    </ol>
+
+    <!-- 3.4 & 4.1. Danh sách lồng nhau kết hợp thuộc tính id cho neo trang -->
+    <h2>Danh sách địa điểm theo vùng miền</h2>
+    <ul>
+        <li id="mien-bac">
+            <strong>Miền Bắc</strong>
+            <ul>
+                <li>Hà Nội</li>
+                <li>Hạ Long</li>
+                <li>Sa Pa</li>
+            </ul>
+        </li>
+        <li id="mien-trung">
+            <strong>Miền Trung</strong>
+            <ul>
+                <li>Đà Nẵng</li>
+                <li>Hội An</li>
+                <li>Huế</li>
+            </ul>
+        </li>
+        <li id="mien-nam">
+            <strong>Miền Nam</strong>
+            <ul>
+                <li>TP. Hồ Chí Minh</li>
+                <li>Vũng Tàu</li>
+                <li>Phú Quốc</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- 3.5 & 3.6. Hiển thị hình ảnh và biến hình ảnh thành liên kết -->
+    <h2>Hình ảnh các địa điểm du lịch</h2>
+    <p>
+        <!-- Ảnh Hà Nội kết hợp thẻ <a> để click chuyển sang trang hanoi.html -->
+        <a href="hanoi.html">
+            <img src="images/hanoi.jpg" alt="Hà Nội" width="300">
+        </a>
+        <img src="images/danang.jpg" alt="Đà Nẵng" width="300">
+        <img src="images/halong.jpg" alt="Hạ Long" width="300">
+        <img src="images/hoian.jpg" alt="Hội An" width="300">
+    </p>
+
+    <!-- 4.3. Phần nâng cao: Tạo thư viện hình ảnh -->
+    <h2>Thư viện hình ảnh</h2>
+    <p>
+        <a href="images/hanoi.jpg" target="_blank">
+            <img src="images/hanoi.jpg" alt="Ảnh Hà Nội" width="250">
+        </a>
+        <a href="images/danang.jpg" target="_blank">
+            <img src="images/danang.jpg" alt="Ảnh Đà Nẵng" width="250">
+        </a>
+        <a href="images/halong.jpg" target="_blank">
+            <img src="images/halong.jpg" alt="Ảnh Hạ Long" width="250">
+        </a>
+        <a href="images/hoian.jpg" target="_blank">
+            <img src="images/hoian.jpg" alt="Ảnh Hội An" width="250">
+        </a>
+    </p>
+
+</body>
+</html>
